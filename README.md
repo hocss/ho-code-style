@@ -189,7 +189,10 @@ Parametric variables should be declared hyphen-separated (no starting hyphen/s) 
 Yep, a lot of this is copy-pasted (or barely adapted) from a number of other sources. Standing on the shoulders of giants.
 
 [Suit CSS](https://suitcss.github.io/)
+
 [Thanks @fat](https://medium.com/@fat/mediums-css-is-actually-pretty-fucking-good-b8e2a6c78b06)
+
 [Thanks @necolas](https://github.com/necolas/idiomatic-css)
+
 [bem](https://en.bem.info/)
 
