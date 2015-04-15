@@ -150,6 +150,8 @@ To increase modularity functional mixins can be used to construct utilities at t
 
 Variables should be very descriptive and structured. If they are used solely to define a component (and are scoped) then the `[--ComponentName]` can be dropped, which allow repurposing at the risk of losing specificity (only a problem with global variables).
 
+The double hyphen identifier is to differentiate them from variables used as mixin parameters.
+
 ```
 @--color-black: #000;
 @--zIndex-2: 200;
@@ -175,6 +177,8 @@ Mixins should be prefixed with `m-` and should probably also include `make` to b
 ```
 
 Polyfill mixins for browser-prefixed properties are good but rely on [autoprefixer](https://github.com/postcss/autoprefixer) rather than reinventing the wheel. Let tooling take the strain and relax.
+
+Parametric variables should be declared hyphen-separated (no starting hyphen/s) to differentiate them from other variables.
 
 ## Formatting
 
