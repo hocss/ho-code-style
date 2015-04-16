@@ -1,4 +1,4 @@
-# Flawless Codestyle
+# Less Codestyle
 
 > LESS Coding Guidelines
 
@@ -196,3 +196,4 @@ Yep, a lot of this is copy-pasted (or barely adapted) from a number of other sou
 
 [bem](https://en.bem.info/)
 
+[Mitigating side effects](https://en.bem.info/articles/side-effects-in-css/)
